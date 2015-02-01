@@ -4,7 +4,7 @@ A helpful vimrc that uses vundle to install/manage a few plugins
 
 # Example Usage
 
-1. install vundle:
+1: install vundle:
 ```
 vagrant@precise32:~$ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 Cloning into '/home/vagrant/.vim/bundle/Vundle.vim'...
@@ -13,11 +13,11 @@ remote: Total 2805 (delta 0), reused 0 (delta 0)
 Receiving objects: 100% (2805/2805), 834.42 KiB | 593 KiB/s, done.
 Resolving deltas: 100% (946/946), done.
 ```
-2. make ~/tmp dir
+2: make ~/tmp dir
 ```
 vagrant@precise32:~$ mkdir ~/tmp
 ```
-3. Then this repo:
+3: Then this repo:
 ```
 vagrant@precise32:~$ git clone https://github.com/nbla/vimrc.git
 Cloning into 'vimrc'...
