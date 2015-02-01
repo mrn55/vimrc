@@ -29,3 +29,7 @@ drwxr-xr-x 3 vagrant vagrant 4096 Feb  1 18:31 vimrc/
 lrwxrwxrwx 1 vagrant vagrant   12 Feb  1 18:32 .vimrc -> vimrc/.vimrc
 vagrant@precise32:~$
 ```
+4: Then to install the vundle plugins in my vimrc
+```
+vagrant@precise32:~/vimrc$ vim +PluginInstall +qall
+```
