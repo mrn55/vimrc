@@ -4,7 +4,7 @@ A helpful vimrc that uses vundle to install/manage a few plugins
 
 # Example Usage
 
-1: install vundle:
+1: install vundle: https://github.com/gmarik/Vundle.vim
 ```
 vagrant@precise32:~$ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 Cloning into '/home/vagrant/.vim/bundle/Vundle.vim'...
