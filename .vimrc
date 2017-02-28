@@ -1,15 +1,6 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'gmarik/vundle'
-Plugin 'msanders/snipmate.vim'
-Plugin 'rstacruz/sparkup'
-Plugin 'tpope/vim-surround'
-Plugin 'joonty/vdebug.git'
-call vundle#end()            " required
-
 filetype plugin indent on
 
 set tabstop=4
