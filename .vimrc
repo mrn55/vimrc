@@ -35,13 +35,6 @@ noremap <S-tab> :tabprevious<CR>
 
 syntax on
 
-if &term == "screen"
-    let &titlestring=expand("%:t")
-    set t_ts=^[k
-    set t_fs=^[\
-    set title
-endif
-
 " Sets debugger port (assumes xdebug is installed
 let g:dbgPavimPort = 9009
 let g:dbgPavimBreakAtEntry = 1
