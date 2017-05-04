@@ -1,6 +1,16 @@
 set nocompatible
 filetype off
 
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+" Keep Plugin commands between here and vundle#end.
+
+" All of your Plugins must be added before the following line
+call vundle#end()
+
 filetype plugin indent on
 
 set tabstop=4
