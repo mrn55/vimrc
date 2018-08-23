@@ -11,3 +11,7 @@ git clone https://github.com/nbla/vimrc.git
 ln -s vimrc/.vimrc ~/.vimrc
 vim +PluginInstall +qall
 ```
+The one-liner:
+```
+cd ~; git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim; mkdir ~/tmp; git clone https://github.com/nbla/vimrc.git; ln -s vimrc/.vimrc ~/.vimrc; vim +PluginInstall +qall;
+```
